@@ -1,0 +1,13 @@
+<h2>Eventos</h2>
+<table class="table">
+  <thead>
+    <tr><th>Nombre</th><th>Magnitud</th><th>Fecha</th></tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let e of events">
+      <td><a [routerLink]="['/event', e.name]">{{e.name}}</a></td>
+      <td>{{e.magnitude}}</td>
+      <td>{{e.date}}</td>
+    </tr>
+  </tbody>
+</table>
