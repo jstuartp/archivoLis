@@ -1,0 +1,13 @@
+{
+    "name": "archivolis/archivo-lis-symfony",
+    "description": "Aplicación ligera inspirada en Symfony para listar y descargar archivos .Lis",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\\\": "src/"
+        }
+    }
+}
